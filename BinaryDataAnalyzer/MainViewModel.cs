@@ -12,7 +12,6 @@ namespace BinaryDataAnalyzer
         private string _filePath;
         private DataTable _statisticsTable;
         private readonly DelegateCommand _analyzeFileCommand;
-        private Random rnd = new Random();
 
         public MainViewModel() 
         {
